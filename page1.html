@@ -53,11 +53,11 @@
 
     <div class="marque" id="product">
         <hr>
-        <h2 style="font-family: 'Rubik';" onclick="openTab('bosch')" id="bosch">BOSCH</h2>
-        <h2 style="font-family: 'Instrument Serif';" onclick="openTab('varta')"  id="varta">VARTA</h2>
-        <h2 style="font-family: 'Playfair ' ;" onclick="openTab('superation')" id="superation">SUPERATION <br> <span style="font-family: 'Instrument Serif';"> BATTREY</span></h2>
-        <h2 style="font-family: 'Instrument Serif';" onclick="openTab('long')" id="long">LONG</h2>
-        <h2 style="font-family: 'Tektur';" onclick="openTab('voltage')" id="voltage">VOLTAGE</h2>
+        <h2 style="font-family: 'Rubik';" onclick="openTab('bosch'),changeColor(this)" >BOSCH</h2>
+        <h2 style="font-family: 'Instrument Serif';" onclick="openTab('varta'),changeColor(this)"  >VARTA</h2>
+        <h2 style="font-family: 'Playfair ' ;" onclick="openTab('superation'),changeColor(this)" >SUPERATION <br> <span style="font-family: 'Instrument Serif';"> BATTREY</span></h2>
+        <h2 style="font-family: 'Instrument Serif';" onclick="openTab('long'),changeColor(this)">LONG</h2>
+        <h2 style="font-family: 'Tektur';" onclick="openTab('voltage'),changeColor(this)">VOLTAGE</h2>
         <hr>
     </div>
 
@@ -269,6 +269,54 @@
                   
             </div>
                 </div>
+                <div  class="tab-contents active-tab " id="superation">
+                  <div class="product1">
+                      <figure class="snip1361" id="i1">
+                          <img src="./images/varta1.png" alt="sample45" width="386" height="500"  lazy loading/>
+                          <figcaption class="f1 ">
+                            <h3>AHIF</h3>
+                          </figcaption>
+                        </figure>
+                        <figure class="snip1361" id="i1">
+                          <img src="./images/varta1.png" alt="sample45" width="386" height="500"  lazy loading/>
+                          <figcaption class="f1 ">
+                            <h3>AHIF</h3>
+                          </figcaption>
+                        </figure>
+                  </div>
+              </div>
+              <div  class="tab-contents active-tab " id="long">
+                <div class="product1">
+                    <figure class="snip1361" id="i1">
+                        <img src="./images/varta1.png" alt="sample45" width="386" height="500"  lazy loading/>
+                        <figcaption class="f1 ">
+                          <h3>AHIF</h3>
+                        </figcaption>
+                      </figure>
+                      <figure class="snip1361" id="i1">
+                        <img src="./images/varta1.png" alt="sample45" width="386" height="500"  lazy loading/>
+                        <figcaption class="f1 ">
+                          <h3>AHIF</h3>
+                        </figcaption>
+                      </figure>
+                </div>
+            </div>
+            <div  class="tab-contents active-tab " id="voltage">
+              <div class="product1">
+                  <figure class="snip1361" id="i1">
+                      <img src="./images/varta1.png" alt="sample45" width="386" height="500"  lazy loading/>
+                      <figcaption class="f1 ">
+                        <h3>AHIF</h3>
+                      </figcaption>
+                    </figure>
+                    <figure class="snip1361" id="i1">
+                      <img src="./images/varta1.png" alt="sample45" width="386" height="500"  lazy loading/>
+                      <figcaption class="f1 ">
+                        <h3>AHIF</h3>
+                      </figcaption>
+                    </figure>
+              </div>
+          </div>
        
 
                 <div class="swiper-wrapper" id="propos">
@@ -317,6 +365,16 @@
             // Set color for the clicked span
             element.querySelector('span').style.color = 'black';
         }
+        function changeColor(element) {
+    // Réinitialise la couleur de tous les éléments
+    var allElements = document.querySelectorAll('h2');
+    for (var i = 0; i < allElements.length; i++) {
+      allElements[i].style.color = 'rgba(116, 111, 111, 0.432)';
+    }
+
+    // Change la couleur de l'élément cliqué
+    element.style.color = 'rgb(199 194 23) '; // ou la couleur de votre choix
+  }
         var tabLinks = document.getElementsByClassName('tab-links');
 var tabContents = document.getElementsByClassName('tab-contents');
 
@@ -330,19 +388,7 @@ function openTab(tabName) {
     event.currentTarget.classList.add('active-link');
     document.getElementById(tabName).classList.add('active-tab');
 }
-function openTab(tabName) {
- 
-    var clickedElement = document.getElementById(tabName);
-    clickedElement.style.color = 'rgb(199 194 23)';
 
-    // Réinitialiser la couleur des autres éléments
-    var allElements = document.querySelectorAll('h2');
-    for (var i = 0; i < allElements.length; i++) {
-      if (allElements[i] !== clickedElement) {
-        allElements[i].style.color = 'rgba(116, 111, 111, 0.432)'; 
-      }
-    }
-  }
 function openWhatsApp(phoneNumber) {
     // Créez le lien WhatsApp avec le numéro de téléphone spécifié
     var whatsappLink = 'https://wa.me/' + phoneNumber;
