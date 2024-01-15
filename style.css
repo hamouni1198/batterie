@@ -421,6 +421,9 @@ nav .navbar ul{
     .snip1361{
         width: 410px;
     }
+    .video .text h2{
+        width: 428px;
+    }
 }
 @media (max-width: 414px){
     .snip1361{
@@ -433,6 +436,7 @@ nav .navbar ul{
       }
       .video .text h2{
         font-size: 24px;
+        width: 414px;
       }
       .snip1361 h3 {
      
@@ -452,10 +456,16 @@ nav .navbar ul{
     .snip1361{
         width: 395px;
     }
+    .video .text h2{
+        width: 412px;
+    }
 }
 @media (max-width: 393px){
     .snip1361{
         width: 373px;
+    }
+    .video .text h2{
+        width: 393px;
     }
 }
 @media (max-width: 375px){
@@ -465,10 +475,14 @@ nav .navbar ul{
     .video .text h2{
         font-size: 20px;
         margin-top: 0px;
+        width: 375px;
     }
 }
 @media (max-width: 360px){
     .snip1361{
         width: 340px;
+    }
+    .video .text h2{
+        width: 360px;
     }
 }
