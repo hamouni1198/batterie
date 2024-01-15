@@ -338,7 +338,7 @@ nav .navbar ul{
     .video .text h2{
         font-size: 31px;
         margin-top: 0px;
-        width: 430px;
+        width: 300px;
     }
     .snip1361 h1{
         vertical-align: bottom;
@@ -422,7 +422,7 @@ nav .navbar ul{
         width: 410px;
     }
     .video .text h2{
-        width: 428px;
+        width: 300px;
     }
 }
 @media (max-width: 414px){
@@ -436,7 +436,7 @@ nav .navbar ul{
       }
       .video .text h2{
         font-size: 24px;
-        width: 414px;
+        width: 300px;
       }
       .snip1361 h3 {
      
@@ -457,7 +457,7 @@ nav .navbar ul{
         width: 395px;
     }
     .video .text h2{
-        width: 412px;
+        width: 300px;
     }
 }
 @media (max-width: 393px){
@@ -465,7 +465,7 @@ nav .navbar ul{
         width: 373px;
     }
     .video .text h2{
-        width: 393px;
+        width: 300px;
     }
 }
 @media (max-width: 375px){
@@ -475,7 +475,7 @@ nav .navbar ul{
     .video .text h2{
         font-size: 20px;
         margin-top: 0px;
-        width: 375px;
+        width: 300px;
     }
 }
 @media (max-width: 360px){
@@ -483,6 +483,6 @@ nav .navbar ul{
         width: 340px;
     }
     .video .text h2{
-        width: 360px;
+        width: 300px;
     }
 }
