@@ -42,7 +42,7 @@
     </nav>
     <div class="video">
         <div class="img" id="imageContainer">
-            <img src="./images/img1.jpg" alt="" data-aos="fade-right" data-aos-mirror="true" >
+            <img  data-aos="fade-right" data-aos-mirror="true" width="640" height="360">
         </div>
         <div class="text">
             <p data-aos="fade-up" >Battery Specialist</p>
@@ -409,10 +409,10 @@ function openWhatsApp(phoneNumber) {
 
             // Si la largeur de l'écran est inférieure ou égale à 430 pixels, changez l'image
             if (windowWidth <= 430) {
-                imageContainer.innerHTML = '<img src="https://raw.githubusercontent.com/hamouni1198/batterie/main/images/cars.webp" alt="" data-aos="fade-right">';
+                imageContainer.innerHTML = '<img src="https://raw.githubusercontent.com/hamouni1198/batterie/main/images/cars.webp" alt="" width="640" height="360" data-aos="fade-right">';
             } else {
                 // Sinon, restaurez l'image d'origine
-                imageContainer.innerHTML = '<img src="https://github.com/hamouni1198/batterie/blob/main/images/img1.jpg?raw=true" alt="" data-aos="fade-right">';
+                imageContainer.innerHTML = '<img src="https://github.com/hamouni1198/batterie/blob/main/images/img1.jpg?raw=true" alt="" width="96%" height="782px" data-aos="fade-right">';
             }
         }
 
