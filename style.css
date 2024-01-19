@@ -416,29 +416,7 @@ nav .navbar ul{
         margin-left: auto;
         margin-right: auto ;
     }
-    .snip {
-        position: relative;
-        overflow: hidden;
-        border: 1px solid #70798B4D;
-        border-radius: 30px;
-        margin: 0px 0px 10px 9px;
-        width: 410px;
-        color: #141414;
-        text-align: left;
-        line-height: 1.4em;
-        font-size: 16px;
-        height: 500px;
-        background-color: transparent;
-        cursor: pointer;
-      }
-    .product1 .snip .imagel{
-        width: 328px;
-        height: 380px;
-        margin-top: 20px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto ;
-    }
+    
     .tab-contents {
         margin: 100px 0;
        
