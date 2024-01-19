@@ -163,8 +163,7 @@ nav .navbar ul{
     opacity: 1;
 }
 .product1{
-    display: grid;
-      grid-template-columns: repeat(4, 1fr);
+    display: flex;
     margin-top: 20px;
 }
 
@@ -173,8 +172,8 @@ nav .navbar ul{
     overflow: hidden;
     border: 1px solid #70798B4D;
     border-radius: 30px;
-    margin: 0px 0px 0px 35px;
-    width: 358px;
+    margin: 0px 0px 0px 7px;
+    width: 385px;
     color: #141414;
     text-align: left;
     line-height: 1.4em;
@@ -184,7 +183,7 @@ nav .navbar ul{
     cursor: pointer;
   }
 .snip1361 img{
-    width: 329px;
+    width: 418px;
     height: 380px;
     margin-top: 20px;
     display: block;
@@ -410,7 +409,7 @@ nav .navbar ul{
         cursor: pointer;
       }
     .snip1361 img{
-        width: 329px;
+        width: 418px;
         height: 380px;
         margin-top: 20px;
         display: block;
