@@ -163,7 +163,8 @@ nav .navbar ul{
     opacity: 1;
 }
 .product1{
-    display: flex;
+    display: grid;
+      grid-template-columns: repeat(4, 1fr);
     margin-top: 20px;
 }
 
@@ -173,7 +174,7 @@ nav .navbar ul{
     border: 1px solid #70798B4D;
     border-radius: 30px;
     margin: 0px 0px 0px 35px;
-    width: 386px;
+    width: 358px;
     color: #141414;
     text-align: left;
     line-height: 1.4em;
