@@ -857,8 +857,7 @@ L’acide ne fuit pas grâce à la construction scellée du couvercle de la batt
             element.querySelector('span').style.color = 'red';
         }
    
-
-  function changeImage() {
+        function changeImage() {
             var imageContainer = document.getElementById('imageContainer');
             var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
@@ -867,9 +866,15 @@ L’acide ne fuit pas grâce à la construction scellée du couvercle de la batt
                 imageContainer.innerHTML = '<img src="https://raw.githubusercontent.com/hamouni1198/batterie/main/images/cars.webp" alt="" width="640">';
             } else {
                 // Sinon, restaurez l'image d'origine
-                imageContainer.innerHTML = '<img src="https://github.com/hamouni1198/batterie/blob/main/images/img1.jpg?raw=true" alt="" width="96%" >';
+                imageContainer.innerHTML = '<img src="https://github.com/hamouni1198/batterie/blob/main/images/img1.jpg?raw=true" alt="" width="96%">';
             }
         }
+
+        // Add event listener for window resize
+        window.addEventListener('resize', changeImage);
+
+        // Initial call to set the initial image based on window width
+        changeImage()
 
    
         var tabLinks = document.getElementsByClassName('tab-links');
