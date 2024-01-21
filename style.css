@@ -140,7 +140,6 @@ nav .navbar ul{
     color: rgb(255, 255, 255);
 }
 .marque{
-    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 90px;
@@ -149,12 +148,26 @@ nav .navbar ul{
     top: -200px;
     font-size: 15px;
 }
+.marque .a{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.marque .b{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
 .marque h2 span{
     font-size: 14px;
+    font-family: 'Tektur';
+    
 }
 .marque h2{
     opacity: 0.6;
     transition: 1s ease;
+    font-family: 'Tektur';
 
 }
 .marque h2:hover{
@@ -189,7 +202,10 @@ nav .navbar ul{
     display: block;
     margin-left: auto;
     margin-right: auto;
+
 }
+
+
 
   .snip1361:hover{
     box-shadow:10px 0px 23px #70798B4D;
