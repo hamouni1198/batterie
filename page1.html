@@ -1521,7 +1521,10 @@ L’acide ne fuit pas grâce à la construction scellée du couvercle de la batt
                     </div>
                     <button id="scrollToTopButton" onclick="scrollToTop()" title="Retour en haut">&#9650; Top</button>
 
-
+                    <a id="whatsappButton" href="https://wa.me/" target="_blank" title="Chat sur WhatsApp">
+                      <img src="whatsapp-icon.png" alt="WhatsApp Icon" width="20" height="20">
+                      Chat sur WhatsApp
+                    </a>
     <script>
     
         function change(element) {
@@ -1591,10 +1594,11 @@ function scrollToTop() {
         scrollToTopButton.style.display = 'none';
       }
     };
+    // JavaScript pour ajouter le numéro de téléphone au lien WhatsApp
+    var whatsappButton = document.getElementById('whatsappButton');
+    var phoneNumber = '0777376489'; // Remplacez par votre propre numéro
+    whatsappButton.href = 'https://wa.me/' + phoneNumber;
     </script>
-     <a id="whatsappButton" href="https://api.whatsapp.com/send?phone=0777376489" target="_blank" title="Chat sur WhatsApp">
-      <img src="whatsapp-icon.png" alt="WhatsApp Icon" width="20" height="20">
-      Chat sur WhatsApp
-    </a>
+      
 </body>
 </html>
