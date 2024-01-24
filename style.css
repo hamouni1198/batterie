@@ -353,16 +353,18 @@ nav .navbar ul{
         justify-content: center;
         align-items: center;
   }
-  #scrollToTop {
-    
+  #scrollToTopButton {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
     background-color: #007bff;
     color: #fff;
     padding: 10px;
     cursor: pointer;
+    border: none;
     border-radius: 5px;
     display: none;
   }
-  
 @media (max-width: 430px) {
     .marque select{
         margin-left: 10px;
@@ -474,17 +476,7 @@ nav .navbar ul{
         margin: 30px;
       }
       .fin{ color: white;}
-      .r{
-        position: relative;
-      }
-      .r.reteur{
-        display:block;
-        position: fixed;
-        height: 70px;
-    width: 50px;
-    
-    background-color: #e70d0d;
-      }
+     
     
 }
 @media (max-width: 428px){
