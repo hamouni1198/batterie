@@ -353,9 +353,14 @@ nav .navbar ul{
         justify-content: center;
         align-items: center;
   }
-  .reteur{
+  #scrollToTop {
+    
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
     display: none;
-
   }
   
 @media (max-width: 430px) {
