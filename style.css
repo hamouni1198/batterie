@@ -409,17 +409,16 @@ nav .navbar ul{
     }
     .marque {
         text-align: center;
-
         position: relative;
         top: -90px;
-       
+        width: 418px
+
     }
     .marque .b,.a{
-        font-size: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
-        text-align: center;
-        width: 420px;
+        font-size: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 382px
     }
     .product1{
         display: inline;
@@ -501,10 +500,7 @@ nav .navbar ul{
         font-size: 24px;
         width: 300px;
       }
-      .marque select{
-        margin-left: 10px;
-        width: 390px;
-    }
+      
       .snip1361 h3 {
      
         font-size: 17px;
@@ -518,6 +514,19 @@ nav .navbar ul{
       .snip1361 h1{
         vertical-align: bottom;
     }
+    .marque {
+        text-align: center;
+        position: relative;
+        top: -90px;
+        width: 414px
+
+    }
+    .marque .b,.a{
+        font-size: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 382px
+    }
 }
 @media (max-width: 412px){
     .snip1361{
@@ -526,6 +535,19 @@ nav .navbar ul{
     .video .text h2{
         width: 300px;
     }
+    .marque {
+        text-align: center;
+        position: relative;
+        top: -90px;
+        width: 412px
+
+    }
+    .marque .b,.a{
+        font-size: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 382px
+    }
 }
 @media (max-width: 393px){
     .snip1361{
@@ -533,6 +555,19 @@ nav .navbar ul{
     }
     .video .text h2{
         width: 300px;
+    }
+    .marque {
+        text-align: center;
+        position: relative;
+        top: -90px;
+        width: 393px
+
+    }
+    .marque .b,.a{
+        font-size: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 382px
     }
 }
 @media (max-width: 375px){
@@ -544,6 +579,19 @@ nav .navbar ul{
         margin-top: 0px;
         width: 300px;
     }
+    .marque {
+        text-align: center;
+        position: relative;
+        top: -90px;
+        width: 375px
+
+    }
+    .marque .b,.a{
+        font-size: 7px;
+        margin-left: 14px;
+        margin-right: auto;
+        width: 370px
+    }
 }
 @media (max-width: 360px){
     .snip1361{
@@ -551,5 +599,18 @@ nav .navbar ul{
     }
     .video .text h2{
         width: 300px;
+    }
+    .marque {
+        text-align: center;
+        position: relative;
+        top: -90px;
+        width: 360px
+
+    }
+    .marque .b,.a{
+        font-size: 7px;
+        margin-left: 7px;
+        margin-right: auto;
+        width: 350px
     }
 }
