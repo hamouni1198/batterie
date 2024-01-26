@@ -416,10 +416,11 @@ nav .navbar ul{
     }
     .marque .b,.a{
         display: flex;
-        font-size: 8px;
+        font-size: 7px;
         margin-left: auto;
         margin-right: auto;
-        width: 382px
+        width: 382px;
+        justify-content: center;
     }
     .product1{
         display: inline;
@@ -519,14 +520,15 @@ nav .navbar ul{
         text-align: center;
         position: relative;
         top: -90px;
-        width: 414px
+        width: 414px;
+        justify-content: center;
 
     }
     .marque .b,.a{
-        font-size: 8px;
+        font-size: 7px;
         margin-left: auto;
         margin-right: auto;
-        width: 382px
+        width: 382px;
     }
 }
 @media (max-width: 412px){
@@ -544,7 +546,7 @@ nav .navbar ul{
 
     }
     .marque .b,.a{
-        font-size: 8px;
+        font-size: 7px;
         margin-left: auto;
         margin-right: auto;
         width: 382px
@@ -565,7 +567,7 @@ nav .navbar ul{
 
     }
     .marque .b,.a{
-        font-size: 8px;
+        font-size: 7px;
         margin-left: auto;
         margin-right: auto;
         width: 380px
@@ -586,7 +588,7 @@ nav .navbar ul{
 
     }
     .marque .b,.a{
-        font-size: 8px;
+        font-size: 7px;
         margin-left: auto;
         margin-right: auto;
         width: 380px
@@ -602,17 +604,18 @@ nav .navbar ul{
         width: 300px;
     }
     .marque {
-        text-align: center;
         position: relative;
         top: -90px;
-        width: 375px
+        width: 375px;
+        justify-content: center;
+
 
     }
     .marque .b,.a{
         font-size: 7px;
         margin-left: 14px;
         margin-right: auto;
-        width: 360px
+        width: 360px;
     }
 }
 @media (max-width: 360px){
