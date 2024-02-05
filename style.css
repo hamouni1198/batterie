@@ -99,8 +99,11 @@ nav .navbar ul{
     border-radius: 20px;
 }
 .video .text p{
-    color:rgb(175, 68, 18) ;
-    font-weight: 400;
+    color: rgb(255 255 0);
+    font-weight: 500;
+    font-size: 19px;
+    font-family: 'Poppins';
+    letter-spacing: 5px;    
 
 }
 .video .text h2{
