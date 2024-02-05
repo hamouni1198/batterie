@@ -14,6 +14,7 @@ body{
 }
 .marque select {
     margin-left: auto;
+    appearance: none;
     margin-right: auto;
     width: 500px;
     height: 40px;
@@ -27,11 +28,25 @@ body{
     font-family: 'poppins';
 
   }
+  .marque .icon{
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    right: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon i{
+    font-size: 20px;
+    color:  rgba(0, 0, 0, 0.185);
+  }
   
-  .marque option{
+ option{
     background-color: rgb(243, 242, 242);
     font-family: 'poppins';
     border-radius: 10px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.185) ;
   }
 a{
     text-decoration: none;
@@ -364,9 +379,24 @@ nav .navbar ul{
  
 @media (max-width: 430px) {
     .marque select{
-        margin-left: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
         width: 400px;
+        text-align: center;
     }
+    .marque .icon{
+        width: 50px;
+        height: 100%;
+        position: absolute;
+        right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .icon i{
+        font-size: 20px;
+        color:  rgba(0, 0, 0, 0.185);
+      }
     nav .logo{
         display: flex;
         margin-left: auto;
@@ -485,7 +515,8 @@ nav .navbar ul{
         width: 300px;
     }
     .marque select{
-        margin-left: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
         width: 400px;
     }
 }
@@ -502,6 +533,10 @@ nav .navbar ul{
         font-size: 24px;
         width: 300px;
       }
+      .marque select{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
       
       .snip1361 h3 {
      
@@ -545,6 +580,10 @@ nav .navbar ul{
         width: 412px
 
     }
+    .marque select{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     .marque .b,.a{
         font-size: 7px;
         margin-left: auto;
@@ -566,6 +605,10 @@ nav .navbar ul{
         width: 393px
 
     }
+    .marque select{
+        margin-left: 5px;
+        margin-right: 7px;
+    }
     .marque .b,.a{
         font-size: 7px;
         margin-left: auto;
@@ -586,6 +629,10 @@ nav .navbar ul{
         top: -90px;
         width: 390px
 
+    }
+    .marque select{
+        margin-left: 5px;
+        margin-right: 8px;
     }
     .marque .b,.a{
         font-size: 7px;
@@ -611,6 +658,10 @@ nav .navbar ul{
 
 
     }
+    .marque select{
+        margin-left: 0px;
+        margin-right: 8px;
+    }
     .marque .b,.a{
         font-size: 7px;
         margin-left: 14px;
@@ -631,6 +682,10 @@ nav .navbar ul{
         top: -90px;
         width: 360px
 
+    }
+    .marque select{
+        margin-left: 4px;
+        margin-right: 8px;
     }
     .marque .b,.a{
         font-size: 7px;
