@@ -54,29 +54,22 @@
 
     <div class="marque" id="product">
       <div class="a">
-        <hr>
-      <h2  onclick="openTab('bosch'),chang(this)">BOSCH</h2>
-      <h2 onclick="openTab('varta'),chang(this)">VARTA</h2>
-      <h2  onclick="openTab(''),chang(this)">SP</h2>
-      <h2  onclick="openTab('long'),chang(this)">LONG</h2>
-      <h2  onclick="openTab('energizer'),chang(this)">ENERGIZER</h2>
-      <h2 onclick="openTab(''),chang(this)">EXTREME</h2>
-      <h2  onclick="openTab('fox'),chang(this)">FOX</h2>
-      <hr>
-    </div>
-    <div class="b">
-      <hr>
-      <h2  onclick="openTab('voltage'),chang(this)">VOLTAGE</h2> 
-      <h2  onclick="openTab('yusa'),chang(this)">yuasa</h2>
-      <h2  onclick="openTab('monbat'),chang(this)">Monbat</h2>
-      <h2  onclick="openTab('jet'),chang(this)">Jet</h2>
-      <h2  onclick="openTab('turbo'),chang(this)">Turbo</h2>
-      <h2  onclick="openTab('zunci'),chang(this)">ZUNCI</h2>
-      <h2  onclick="openTab(''),chang(this)">POWER</h2>
-      <hr>
+        <select onchange="openTab(this.value),chang(this)">
+          <option value="bosch">BOSCH</option>
+          <option value="varta">VARTA</option>
+          <option value="long">LONG</option>
+          <option value="energizer">ENERGIZER</option>
+          <option value="fox">FOX</option>
+                <option value="voltage">VOLTAGE</option> 
+          <option value="yusa">YUASA</option>
+          <option value="monbat">Monbat</option>
+          <option value="jet">Jet</option>
+          <option value="turbo">Turbo</option>
+          <option value="zunci">ZUNCI</option>
+       </select>
+      </div>
     </div>
     
-  </div>
 
 
 
@@ -1618,7 +1611,7 @@ Poids	:2.62kg/chaque
         }
         function chang(element) {
     // Réinitialiser la couleur de tous les éléments h2 à gris
-    var allH2 = document.querySelectorAll('.marque h2');
+    var allH2 = document.querySelectorAll('.marque select option');
     allH2.forEach(function(item) {
       item.style.color = 'rgba(0,0,0,.4)';
     });
